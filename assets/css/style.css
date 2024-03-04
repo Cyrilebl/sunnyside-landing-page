@@ -365,7 +365,51 @@ footer {
     brightness(150%) contrast(100%);
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1250px) {
+  /* First section */
+  .text-one {
+    padding-left: 100px;
+  }
+
+  .text-one h2 {
+    padding-right: 100px;
+  }
+
+  .text-one p {
+    padding-right: 80px;
+  }
+
+  /* Second section */
+  .text-two {
+    padding-left: 100px;
+  }
+
+  .text-two h2 {
+    padding-right: 100px;
+  }
+
+  .text-two p {
+    padding-right: 110px;
+  }
+
+  /* Third section */
+  .text-three {
+    padding: 40px 100px;
+  }
+
+  /* Fourth section */
+  .text-four {
+    padding: 40px 130px;
+  }
+
+  /* Testimonials */
+
+  .testimonials {
+    margin: 100px 60px;
+  }
+}
+
+@media all and (max-width: 1000px) {
   /* Header */
 
   header {
