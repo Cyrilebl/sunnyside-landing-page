@@ -56,6 +56,10 @@ header {
   padding: 30px 40px;
 }
 
+.nav__logo {
+  width: 150px;
+}
+
 .nav__link {
   display: flex;
   gap: 20px;
@@ -418,6 +422,10 @@ footer {
 
   .nav {
     padding: 30px 25px;
+  }
+
+  .nav__logo {
+    width: 100%;
   }
 
   .nav__link {
