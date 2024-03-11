@@ -474,6 +474,7 @@ footer {
 
   .nav__hamburger {
     display: block;
+    cursor: pointer;
   }
 
   header h1 {
